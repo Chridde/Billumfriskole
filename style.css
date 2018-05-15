@@ -1,7 +1,7 @@
 /* Denne style er til banner, men kan sagtens ændre hvis vi bliver enige om nogle generelle padding og margin på siden senere */
 * {
-    margin: 0px;
-    padding: 0px;
+      margin: 0px;
+      padding: 0px;
 }
 
 /* har bare lavet en random farve til banner */
@@ -11,12 +11,42 @@ body {
 
 /* Random width og height, kan bare ændres når vi bliver enige om siden */
 .banner{
-        margin: 0 auto;
-        width: 70%;
-        height: 400px;
-        background-color: #fff;
-        overflow: hidden;
-        position: relative;
+      margin: 0 auto;
+      width: 70%;
+      height: 400px;
+      background-color: #fff;
+      overflow: hidden;
+      position: relative;
 }
 
-.banner #bannerimg3
+.banner .bannerimg{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      transition: all ease-in-out 300ms;
+      -webkit-transition: all ease-in-out 300ms;
+      -moz-transition: all ease-in-out 300ms;
+      -o-transition: all ease-in-out 300ms;
+}
+
+.banner #bannerimg3{
+      background-image: url(media/placeholder3.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.banner #bannerimg2{
+      background-image: url(media/placeholder2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.banner #bannerimg1{
+      background-image: url(media/placeholder1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
