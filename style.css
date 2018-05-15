@@ -1,0 +1,18 @@
+/* Denne style er til banner, men kan sagtens ændre hvis vi bliver enige om nogle generelle padding og margin på siden senere */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* har bare lavet en random farve til banner */
+body {
+      background-color: #f3f3f3;
+}
+
+/* Random width og height, kan bare ændres når vi bliver enige om siden */
+.banner{
+        margin: 0 auto;
+        width: 80%;
+        height: 400px;
+        background-color: #fff;
+}
