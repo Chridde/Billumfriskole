@@ -50,3 +50,35 @@ body {
       background-position: center;
       background-repeat: no-repeat;
 }
+
+.bannerbutton{
+      width: 40px;
+      height: 40px;
+      background-color: #000;
+      border-radius: 4px;
+      position: absolute;
+      top: 180px;
+      z-index: 10000;
+      opacity: 0.8;
+      cursor: pointer;
+}
+
+.bannerbutton:hover{
+      opacity: 0.9;
+}
+
+.bannerbuttonl{
+      left: 5px;
+      background-image: url(media/left-arrow.png);
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.bannerbuttonr{
+      right: 5px;
+      background-image: url(media/right-arrow.png);
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+}

@@ -12,6 +12,7 @@
     <main>
 
       <div class="banner" id="banner">
+        <div class="bannerbutton bannerbuttonl" id="bannerbuttonl"></div>
         <div class="bannerimg" id="bannerimg3">
 
         </div>
@@ -21,8 +22,145 @@
         <div class="bannerimg" id="bannerimg1">
 
         </div>
+        <div class="bannerbutton bannerbuttonr" id="bannerbuttonr"></div>
       </div>
 
     </main>
+    <script>
+    var bannerCurrent = 1;
+    var bannerTime = 5000;
+
+    window.onload = function() {
+        bannerRun();
+    }
+
+    var startBanner = setInterval(function() {
+        bannerRun();
+    }, bannerTime);
+
+    document.querySelector(".banner").onmouseenter = function() {
+        clearInterval(startBanner);
+    }
+
+    document.querySelector(".banner").onmouseleave = function() {
+        startBanner = setInterval(function() {
+            bannerRun();
+        }, bannerTime);
+    }
+
+    document.querySelector("#bannerbuttonl").onclick = function() {
+        if (bannerCurrent === 1) {
+            bannerCurrent = 2;
+        }
+        else if (bannerCurrent === 2) {
+            bannerCurrent = 3;
+        }
+        else if (bannerCurrent === 3) {
+            bannerCurrent = 1;
+        }
+        bannerRun2();
+    }
+
+    document.querySelector("#bannerbuttonr").onclick = function() {
+        bannerRun();
+    }
+
+    function bannerRun() {
+      if (bannerCurrent === 1) {
+        document.querySelector("#bannerimg2").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg1").style.right = "0px";
+          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg2").style.right = "-100%";
+          document.querySelector("#bannerimg2").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.right = "70%";
+          document.querySelector("#bannerimg3").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg2").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 2;
+      }
+      else if (bannerCurrent === 2) {
+        document.querySelector("#bannerimg3").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg2").style.right = "0px";
+          document.querySelector("#bannerimg2").style.zIndex = "5000";
+          document.querySelector("#bannerimg3").style.right = "-100%";
+          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg1").style.right = "70%";
+          document.querySelector("#bannerimg1").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg3").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 3;
+      }
+      else if (bannerCurrent === 3) {
+        document.querySelector("#bannerimg1").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg3").style.right = "0px";
+          document.querySelector("#bannerimg3").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.right = "-100%";
+          document.querySelector("#bannerimg1").style.zIndex = "6000";
+          document.querySelector("#bannerimg2").style.right = "70%";
+          document.querySelector("#bannerimg2").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg1").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 1;
+      }
+    }
+
+    function bannerRun2() {
+      if (bannerCurrent === 1) {
+        document.querySelector("#bannerimg2").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg1").style.right = "0px";
+          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg2").style.right = "-100%";
+          document.querySelector("#bannerimg2").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.right = "70%";
+          document.querySelector("#bannerimg3").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg2").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 2;
+      }
+      else if (bannerCurrent === 2) {
+        document.querySelector("#bannerimg1").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg2").style.right = "0px";
+          document.querySelector("#bannerimg2").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.right = "-100%";
+          document.querySelector("#bannerimg1").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.right = "70%";
+          document.querySelector("#bannerimg3").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg3").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 3;
+      }
+      else if (bannerCurrent === 3) {
+        document.querySelector("#bannerimg3").style.opacity = "0";
+        setTimeout(function() {
+          document.querySelector("#bannerimg1").style.right = "0px";
+          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg3").style.right = "-100%";
+          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg2").style.right = "70%";
+          document.querySelector("#bannerimg2").style.zIndex = "4000";
+        }, 500);
+        setTimeout(function() {
+          document.querySelector("#bannerimg3").style.opacity = "1";
+        }, 1000);
+        bannerCurrent = 1;
+      }
+    }
+
+    </script>
   </body>
 </html>
