@@ -14,13 +14,22 @@
       <div class="banner" id="banner">
         <div class="bannerbutton bannerbuttonl" id="bannerbuttonl"></div>
         <div class="bannerimg" id="bannerimg3">
-
+          <div class="banimg-tekst">
+            <h2>Placeholder hej hej</h2>
+            <p>Placeholder placeholder</p>
+          </div>
         </div>
         <div class="bannerimg" id="bannerimg2">
-
+          <div class="banimg-tekst">
+            <h2>Placeholder hej hej</h2>
+            <p>Placeholder placeholder</p>
+          </div>
         </div>
         <div class="bannerimg" id="bannerimg1">
-
+          <div class="banimg-tekst">
+            <h2>Placeholder hej hej</h2>
+            <p>Placeholder placeholder</p>
+          </div>
         </div>
         <div class="bannerbutton bannerbuttonr" id="bannerbuttonr"></div>
       </div>
@@ -115,29 +124,29 @@
 
     function bannerRun2() {
       if (bannerCurrent === 1) {
-        document.querySelector("#bannerimg2").style.opacity = "0";
+        document.querySelector("#bannerimg3").style.opacity = "0";
         setTimeout(function() {
-          document.querySelector("#bannerimg1").style.right = "0px";
+          document.querySelector("#bannerimg1").style.left = "0px";
           document.querySelector("#bannerimg1").style.zIndex = "5000";
-          document.querySelector("#bannerimg2").style.right = "-100%";
-          document.querySelector("#bannerimg2").style.zIndex = "6000";
-          document.querySelector("#bannerimg3").style.right = "70%";
-          document.querySelector("#bannerimg3").style.zIndex = "4000";
+          document.querySelector("#bannerimg3").style.left = "-100%";
+          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg2").style.left = "70%";
+          document.querySelector("#bannerimg2").style.zIndex = "4000";
         }, 500);
         setTimeout(function() {
-          document.querySelector("#bannerimg2").style.opacity = "1";
+          document.querySelector("#bannerimg3").style.opacity = "1";
         }, 1000);
         bannerCurrent = 2;
       }
       else if (bannerCurrent === 2) {
-        document.querySelector("#bannerimg1").style.opacity = "0";
+        document.querySelector("#bannerimg3").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg2").style.right = "0px";
           document.querySelector("#bannerimg2").style.zIndex = "5000";
-          document.querySelector("#bannerimg1").style.right = "-100%";
-          document.querySelector("#bannerimg1").style.zIndex = "6000";
-          document.querySelector("#bannerimg3").style.right = "70%";
-          document.querySelector("#bannerimg3").style.zIndex = "4000";
+          document.querySelector("#bannerimg3").style.right = "-100%";
+          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg1").style.right = "70%";
+          document.querySelector("#bannerimg1").style.zIndex = "4000";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg3").style.opacity = "1";
@@ -145,21 +154,22 @@
         bannerCurrent = 3;
       }
       else if (bannerCurrent === 3) {
-        document.querySelector("#bannerimg3").style.opacity = "0";
+        document.querySelector("#bannerimg1").style.opacity = "0";
         setTimeout(function() {
-          document.querySelector("#bannerimg1").style.right = "0px";
-          document.querySelector("#bannerimg1").style.zIndex = "5000";
-          document.querySelector("#bannerimg3").style.right = "-100%";
-          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.right = "0px";
+          document.querySelector("#bannerimg3").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.right = "-100%";
+          document.querySelector("#bannerimg1").style.zIndex = "6000";
           document.querySelector("#bannerimg2").style.right = "70%";
           document.querySelector("#bannerimg2").style.zIndex = "4000";
         }, 500);
         setTimeout(function() {
-          document.querySelector("#bannerimg3").style.opacity = "1";
+          document.querySelector("#bannerimg1").style.opacity = "1";
         }, 1000);
         bannerCurrent = 1;
       }
     }
+
 
     </script>
   </body>

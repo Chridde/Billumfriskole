@@ -82,3 +82,31 @@ body {
       background-position: center;
       background-repeat: no-repeat;
 }
+
+.banner .banimg-tekst h2{
+      color: #fff;
+      font-size: 60px;
+}
+
+.banner .banimg-tekst p{
+      color: #fff;
+      font-size: 16px;
+      padding-top: 6px;
+}
+
+.banner #bannerimg3 .banimg-tekst{
+      padding-top: 220px;
+      padding-left: 100px;
+}
+
+.banner #bannerimg2 .banimg-tekst{
+      padding-top: 220px;
+      padding-right: 100px;
+      float: right;
+      text-align: right;
+}
+
+.banner #bannerimg1 .banimg-tekst{
+      padding-top: 70px;
+      padding-left: 100px;
+}
