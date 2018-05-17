@@ -1,7 +1,40 @@
 /* Denne style er til banner, men kan sagtens ændre hvis vi bliver enige om nogle generelle padding og margin på siden senere */
-* {
-      margin: 0px;
-      padding: 0px;
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Atma-Medium', sans-serif;
+}
+
+nav{
+  height: 60px;
+  background-color: #F7F6F0;
+  box-shadow: 0px 6px 18px #888888;
+}
+
+nav ul{
+  height: 50px;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline;
+  float: left;
+  width: 14.2%;
+  text-align: center;
+  padding-top: 18px;
+}
+
+nav ul li a{
+  color: #BC9480;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+  color: #5890B4;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* har bare lavet en random farve til banner */
@@ -45,7 +78,7 @@ body {
 }
 
 .banner #bannerimg1{
-      
+
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
