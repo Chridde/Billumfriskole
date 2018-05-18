@@ -104,8 +104,7 @@ main{
 
 .bannerswirl{
   z-index: 1000;
-  margin-top: -100px;
-  width: 100vw;
+  margin-top: -88px;
   position: absolute;
 }
 
@@ -226,7 +225,7 @@ body {
 
 .banner .bannerimg{
       width: 100%;
-      height: auto;
+      height: 100%;
       position: absolute;
       top: 0px;
       transition: all ease-in-out 300ms;
