@@ -70,11 +70,11 @@ main{
 
 @font-face {
   font-family: "Atma-Light", "Atma-Regular", "Atma-SemiBold", "Atma-Medium", "Atma-Bold";
-  src: url("/media/Atma-Light.ttf") format("opentype"),
-       url("/media/Atma-Regular.ttf") format("opentype"),
-       url("/media/Atma-SemiBold.ttf") format("opentype"),
-       url("/media/Atma-Medium.ttf") format("opentype"),
-       url("/media/Atma-Bold.ttf") format("opentype"),
+  src: url("media/Atma-Light.ttf") format("opentype"),
+       url("media/Atma-Regular.ttf") format("opentype"),
+       url("media/Atma-SemiBold.ttf") format("opentype"),
+       url("media/Atma-Medium.ttf") format("opentype"),
+       url("media/Atma-Bold.ttf") format("opentype"),
 }
 
 #frontcircle{
