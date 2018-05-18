@@ -45,7 +45,7 @@ body {
 /* Random width og height, kan bare ændres når vi bliver enige om siden */
 .banner{
       margin: 0 auto;
-      width: 70%;
+      width: 100%;
       height: 400px;
       background-color: #fff;
       overflow: hidden;
