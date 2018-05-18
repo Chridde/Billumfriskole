@@ -278,10 +278,9 @@ body {
 .banner h1{
       font-size: 90px;
       color: #A6E48C;
-
       z-index: 150;
       position: absolute;
-      padding: 300px 0 0 200px;
+      margin: 300px 0 0 200px;
 }
 
 .bannersection{
@@ -336,7 +335,7 @@ body {
 }
 
 .bannerbuttonl{
-      left: 5px;
+      left: 22px;
       background-image: url(media/left-arrow.png);
       background-size: 60%;
       background-position: center;
@@ -358,18 +357,16 @@ body {
 }
 
 .banner #bannerimg3 .banimg-tekst{
-      padding-top: 260px;
-      padding-left: 100px;
+      padding-top: 400px;
+      padding-left: 202px;
 }
 
 .banner #bannerimg2 .banimg-tekst{
-      padding-top: 220px;
-      padding-right: 100px;
-      float: right;
-      text-align: right;
+      padding-top: 400px;
+      padding-left: 202px;
 }
 
 .banner #bannerimg1 .banimg-tekst{
       padding-top: 400px;
-      padding-left: 100px;
+      padding-left: 202px;
 }
