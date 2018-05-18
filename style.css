@@ -342,6 +342,29 @@ main{
   width: 10%;
 }
 
+
+#contact{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+#contact input{
+  padding: 10px 0 10px 10px;
+  font-size: 20px;
+  width: 30%;
+  margin-right: 20px;
+  font-family: 'Atma-Light', sans-serif;
+}
+
+.message{
+  display: block;
+  width: 100% !important;
+  margin-top: 20px;
+  height: 200px;
+}
+
+
 /* har bare lavet en random farve til banner */
 body {
   background-color: #F7F6F0;
