@@ -55,6 +55,7 @@ h2{
 
 #gitte img{
   float: left;
+  z-index: 110;
 }
 
 main{
