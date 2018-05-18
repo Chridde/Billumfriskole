@@ -69,12 +69,28 @@ main{
 }
 
 @font-face {
-  font-family: "Atma-Light", "Atma-Regular", "Atma-SemiBold", "Atma-Medium", "Atma-Bold";
-  src: url("media/Atma-Light.ttf") format("opentype"),
-       url("media/Atma-Regular.ttf") format("opentype"),
-       url("media/Atma-SemiBold.ttf") format("opentype"),
-       url("media/Atma-Medium.ttf") format("opentype"),
-       url("media/Atma-Bold.ttf") format("opentype"),
+  font-family: "Atma-Light";
+  src: url("media/Atma-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Atma-Regular";
+  src: url("media/Atma-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Atma-Medium";
+  src: url("media/Atma-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Atma-SemiBold";
+  src: url("media/Atma-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Atma-Bold";
+  src: url("media/Atma-Bold.ttf") format("opentype");
 }
 
 #frontcircle{
