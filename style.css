@@ -53,9 +53,15 @@ h2{
   text-align: center;
 }
 
+#gitte{
+  height: 500px;
+}
+
 #gitte img{
   float: left;
   z-index: 110;
+  position: absolute;
+  margin-top: -100px;
 }
 
 main{
@@ -63,8 +69,9 @@ main{
 }
 
 #frontcircle{
+  float: left;
   width: 350px;
-  margin-left: 500px;
+  margin-left: 32%;
   height: 350px;
   border-radius: 175px;
   color: #5890B4;
@@ -104,7 +111,7 @@ main{
 }
 
 .bannerswirl{
-  z-index: 1000;
+  z-index: 100;
   margin-top: -88px;
   position: absolute;
 }
@@ -227,6 +234,15 @@ body {
       position: relative;
 }
 
+.banner h1{
+      font-size: 90px;
+      color: #A6E48C;
+
+      z-index: 150;
+      position: absolute;
+      padding: 300px 0 0 200px;
+}
+
 .bannersection{
 }
 
@@ -294,19 +310,14 @@ body {
       background-repeat: no-repeat;
 }
 
-.banner .banimg-tekst h2{
-      color: #fff;
-      font-size: 60px;
-}
-
 .banner .banimg-tekst p{
-      color: #fff;
-      font-size: 16px;
+      color: #A6E48C;
+      font-size: 40px;
       padding-top: 6px;
 }
 
 .banner #bannerimg3 .banimg-tekst{
-      padding-top: 220px;
+      padding-top: 260px;
       padding-left: 100px;
 }
 
@@ -318,6 +329,6 @@ body {
 }
 
 .banner #bannerimg1 .banimg-tekst{
-      padding-top: 340px;
+      padding-top: 400px;
       padding-left: 100px;
 }
