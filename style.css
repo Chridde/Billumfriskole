@@ -113,6 +113,10 @@ main{
   font-family: 'Atma-Regular', sans-serif;
 }
 
+#top{
+  height: 1000px;
+}
+
 #wavybg{
   position: relative;
   margin-top: -80px;
