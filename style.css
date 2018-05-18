@@ -61,6 +61,15 @@ main{
   width: 100%;
 }
 
+@font-face {
+  font-family: "Atma-Light", "Atma-Regular", "Atma-SemiBold", "Atma-Medium", "Atma-Bold";
+  src: url("/media/Atma-Light.ttf") format("opentype"),
+       url("/media/Atma-Regular.ttf") format("opentype"),
+       url("/media/Atma-SemiBold.ttf") format("opentype"),
+       url("/media/Atma-Medium.ttf") format("opentype"),
+       url("/media/Atma-Bold.ttf") format("opentype"),
+}
+
 #frontcircle{
   width: 350px;
   margin-left: 500px;
@@ -103,7 +112,7 @@ main{
 }
 
 .bannerswirl{
-  z-index: 1000;
+  z-index: 100;
   margin-top: -88px;
   position: absolute;
 }
@@ -200,15 +209,47 @@ main{
 }
 
 .navli{
-  margin-left: 14%;
+  margin-left: 14.2%;
+}
+
+#news{
+  margin-top: 150px;
+}
+
+#news h2{
+  color: #A6E48C;
 }
 
 #newscontainer{
   width: 80%;
-  margin: 0 auto;
-  background: #FFF;
+  margin: 40px auto 0 auto;
 }
 
+.newselement{
+  background: #FFF;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 300px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
+.newselement img{
+  float: left;
+}
+
+.newstext{
+  color: #A6E48C;
+  float: left;
+  padding: 20px 0 0 20px;
+  width: 60%;
+}
+
+.newsright{
+  float: right;
+  height: 100%;
+  background: #A6E48C;
+  width: 10%;
+}
 
 /* har bare lavet en random farve til banner */
 body {
@@ -268,7 +309,7 @@ body {
       border-radius: 4px;
       position: absolute;
       top: 290px;
-      z-index: 10000;
+      z-index: 100;
       opacity: 0.8;
       cursor: pointer;
 }
