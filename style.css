@@ -43,6 +43,11 @@ section{
   width: 100%;
 }
 
+h1{
+z-index: 100;
+color:#A6E48C;
+}
+
 h2{
   font-size: 80px;
   text-align: center;
