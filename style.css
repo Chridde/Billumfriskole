@@ -102,6 +102,13 @@ main{
   font-family: 'Atma-Regular', sans-serif;
 }
 
+.bannerswirl{
+  z-index: 1000;
+  margin-top: -100px;
+  width: 100vw;
+  position: absolute;
+}
+
 .values1{
   position: absolute;
   border-right: 1px solid #BC9480;
@@ -252,7 +259,7 @@ body {
       background-color: #000;
       border-radius: 4px;
       position: absolute;
-      top: 390px;
+      top: 290px;
       z-index: 10000;
       opacity: 0.8;
       cursor: pointer;
@@ -302,6 +309,6 @@ body {
 }
 
 .banner #bannerimg1 .banimg-tekst{
-      padding-top: 70px;
+      padding-top: 340px;
       padding-left: 100px;
 }
