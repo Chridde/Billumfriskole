@@ -204,6 +204,12 @@ main{
   margin-left: 14%;
 }
 
+#newscontainer{
+  width: 80%;
+  margin: 0 auto;
+  background: #FFF;
+}
+
 
 /* har bare lavet en random farve til banner */
 body {
