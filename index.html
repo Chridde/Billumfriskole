@@ -14,8 +14,8 @@
         <li><a href="skolen.html">SKOLEN</a></li>
         <li><a href="sfo.html">SFO</a></li>
         <li><a href="boernehaven.html">BØRNEHAVEN</a></li>
-        <li><a href="index.html"><img src="media/logo.png"></a></li>
-        <li><a href="praktiskinfo.html">PRAKTISK INFO</a></li>
+        <li class="logoclass"><a href="index.html"><img src="media/logo.png"></a></li>
+        <li class="navli"><a href="praktiskinfo.html">PRAKTISK INFO</a></li>
         <li><a href="ansatte.html">ANSATTE</a></li>
         <li><a href="kontakt.html">KONTAKT</a></li>
       </ul>
@@ -35,14 +35,16 @@
             <p>Placeholder placeholder</p>
           </div>
         </div>
-        <video autoplay muted loop class="bannerimg" id="bannerimg1">
-          <source src="media/placeholder1.mp4" type="video/mp4">
-        </video>
+        <div class="bannerimg" id="bannerimg1">
+
+
           <div class="banimg-tekst">
             <h2>Placeholder hej hej</h2>
             <p>Placeholder placeholder</p>
           </div>
+        </div>
         <div class="bannerbutton bannerbuttonr" id="bannerbuttonr"></div>
+
       </div>
       <section id="gitte">
         <img src="media/gitte.png">
@@ -137,11 +139,11 @@
         document.querySelector("#bannerimg2").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg1").style.right = "0px";
-          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.zIndex = "50";
           document.querySelector("#bannerimg2").style.right = "-100%";
-          document.querySelector("#bannerimg2").style.zIndex = "6000";
+          document.querySelector("#bannerimg2").style.zIndex = "60";
           document.querySelector("#bannerimg3").style.right = "100%";
-          document.querySelector("#bannerimg3").style.zIndex = "4000";
+          document.querySelector("#bannerimg3").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg2").style.opacity = "1";
@@ -152,11 +154,11 @@
         document.querySelector("#bannerimg3").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg2").style.right = "0px";
-          document.querySelector("#bannerimg2").style.zIndex = "5000";
+          document.querySelector("#bannerimg2").style.zIndex = "50";
           document.querySelector("#bannerimg3").style.right = "-100%";
-          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.zIndex = "60";
           document.querySelector("#bannerimg1").style.right = "100%";
-          document.querySelector("#bannerimg1").style.zIndex = "4000";
+          document.querySelector("#bannerimg1").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg3").style.opacity = "1";
@@ -167,11 +169,11 @@
         document.querySelector("#bannerimg1").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg3").style.right = "0px";
-          document.querySelector("#bannerimg3").style.zIndex = "5000";
+          document.querySelector("#bannerimg3").style.zIndex = "50";
           document.querySelector("#bannerimg1").style.right = "-100%";
-          document.querySelector("#bannerimg1").style.zIndex = "6000";
+          document.querySelector("#bannerimg1").style.zIndex = "60";
           document.querySelector("#bannerimg2").style.right = "100%";
-          document.querySelector("#bannerimg2").style.zIndex = "4000";
+          document.querySelector("#bannerimg2").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg1").style.opacity = "1";
@@ -185,11 +187,11 @@
         document.querySelector("#bannerimg3").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg1").style.right = "0px";
-          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.zIndex = "50";
           document.querySelector("#bannerimg3").style.right = "100%";
-          document.querySelector("#bannerimg3").style.zIndex = "6000";
+          document.querySelector("#bannerimg3").style.zIndex = "60";
           document.querySelector("#bannerimg2").style.right = "-100%";
-          document.querySelector("#bannerimg2").style.zIndex = "4000";
+          document.querySelector("#bannerimg2").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg3").style.opacity = "1";
@@ -200,11 +202,11 @@
         document.querySelector("#bannerimg1").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg1").style.right = "100%";
-          document.querySelector("#bannerimg1").style.zIndex = "5000";
+          document.querySelector("#bannerimg1").style.zIndex = "50";
           document.querySelector("#bannerimg2").style.right = "0px";
-          document.querySelector("#bannerimg2").style.zIndex = "6000";
+          document.querySelector("#bannerimg2").style.zIndex = "60";
           document.querySelector("#bannerimg3").style.right = "-100%";
-          document.querySelector("#bannerimg3").style.zIndex = "4000";
+          document.querySelector("#bannerimg3").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg1").style.opacity = "1";
@@ -215,11 +217,11 @@
         document.querySelector("#bannerimg2").style.opacity = "0";
         setTimeout(function() {
           document.querySelector("#bannerimg3").style.right = "0px";
-          document.querySelector("#bannerimg3").style.zIndex = "5000";
+          document.querySelector("#bannerimg3").style.zIndex = "50";
           document.querySelector("#bannerimg1").style.right = "-100%";
-          document.querySelector("#bannerimg1").style.zIndex = "6000";
+          document.querySelector("#bannerimg1").style.zIndex = "60";
           document.querySelector("#bannerimg2").style.right = "100%";
-          document.querySelector("#bannerimg2").style.zIndex = "4000";
+          document.querySelector("#bannerimg2").style.zIndex = "40";
         }, 500);
         setTimeout(function() {
           document.querySelector("#bannerimg2").style.opacity = "1";

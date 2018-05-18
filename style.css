@@ -178,6 +178,15 @@ main{
   border: none !important;
 }
 
+.logoclass{
+  position: absolute;
+  z-index: 70;
+}
+
+.navli{
+  margin-left: 14%;
+}
+
 
 /* har bare lavet en random farve til banner */
 body {
@@ -186,9 +195,10 @@ body {
 
 /* Random width og height, kan bare ændres når vi bliver enige om siden */
 .banner{
+      top: 0;
       margin: 0 auto;
       width: 100%;
-      height: 400px;
+      height: 781px;
       background-color: #fff;
       overflow: hidden;
       position: relative;
@@ -220,7 +230,7 @@ body {
 }
 
 .banner #bannerimg1{
-
+      background-image: url(media/bannerimg1.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -232,7 +242,7 @@ body {
       background-color: #000;
       border-radius: 4px;
       position: absolute;
-      top: 180px;
+      top: 390px;
       z-index: 10000;
       opacity: 0.8;
       cursor: pointer;
