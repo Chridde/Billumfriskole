@@ -166,8 +166,68 @@ main{
 
 #top{
   width: 100%;
-  height: 1000px;
 }
+
+
+
+
+
+
+
+.dropdown-button {
+  background: #F7F6F0;
+  margin-top: -20px;
+  border: none;
+    outline:none;
+    color: #BC9480;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: #5890B4;
+}
+
+.dropdown {
+    z-index: 200;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: -30px;
+    background-color: #F7F6F0;
+    min-width: 160px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #BC9480;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #F4E0D6
+}
+
+.show {
+  display:block;
+}
+
+.active{
+  font-family: 'Atma-SemiBold', sans-serif;
+}
+
+
+
+
+
 
 .textcontainer{
   width: 60%;
@@ -185,6 +245,12 @@ main{
   width: 60%;
   margin: 0 auto;
   margin-top: 160px;
+}
+
+.textcontainer4{
+  width: 60%;
+  margin: 0 auto;
+  margin: 220px auto 100px auto;
 }
 
 .openingtimes h3{
@@ -356,6 +422,26 @@ main{
 .button:hover{
   background-color: #A6E48C;
   color: #FFF;
+}
+
+.buttoncontainer{
+  text-align: center;
+  margin: 40px 0;
+}
+
+.bluebutton{
+  background: #5890B4;
+  padding: 16px 60px;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #F7F6F0;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+
+.bluebutton:hover{
+  background-color: #7BB0D1;
 }
 
 .calendercontainer{

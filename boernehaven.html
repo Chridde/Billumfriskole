@@ -13,9 +13,26 @@
       <ul>
         <li><a href="skolen.html">SKOLEN</a></li>
         <li><a href="sfo.html">SFO</a></li>
-        <li><a href="boernehaven.html">BØRNEHAVEN</a></li>
+        <li><a class="active" href="boernehaven.html">BØRNEHAVEN</a></li>
         <li class="logoclass"><a href="index.html"><img src="media/logo.png"></a></li>
-        <li class="navli"><a href="praktiskinfo.html">PRAKTISK INFO</a></li>
+        <li class="navli">
+          <div class="dropdown">
+            <button onclick="dropDown()" class="dropdown-button">PRAKTISK INFO</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="indmeldelse.html">Indmeldelse</a>
+              <a href="priser.html">Priser</a>
+              <a href="kalender.html">Kalender</a>
+              <a href="vedtaegter.html">Vedtægter</a>
+              <a href="vaerdiggrundlag.html">Værdiggrundlag</a>
+              <a href="undervisningsplaner.html">Undervisningsplaner</a>
+              <a href="tilsynsforerende.html">Certificeret tilsynsførerende</a>
+              <a href="tilsynserklaering.html">Tilsynserklæring</a>
+              <a href="undervisningsmiljovurdering.html">Undervisningsmiljøvurdering</a>
+              <a href="nogletal.html">Nøgletal</a>
+              <a href="udmeldelse.html">Udmeldelse</a>
+            </div>
+          </div>
+        </li>
         <li><a href="ansatte.html">ANSATTE</a></li>
         <li><a href="kontakt.html">KONTAKT</a></li>
       </ul>
@@ -250,7 +267,23 @@
       }
     }
 
+    function dropDown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
 
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropdown-button')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
     </script>
   </body>
 </html>
