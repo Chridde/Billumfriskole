@@ -178,16 +178,16 @@ main{
   background: #F7F6F0;
   margin-top: -20px;
   border: none;
-    outline:none;
-    color: #BC9480;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  outline:none;
+  color: #BC9480;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    color: #5890B4;
+  color: #5890B4;
 }
 
 .dropdown {
@@ -199,7 +199,7 @@ main{
 .dropdown-content {
     display: none;
     position: absolute;
-    margin-left: -30px;
+    margin-left: -38px;
     background-color: #F7F6F0;
     min-width: 160px;
     box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
@@ -612,7 +612,7 @@ footer{
   font-size: 28px;
 }
 
-.footer-contact{
+.footer-row{
   flex: 33%;
   text-align: center;
 }
@@ -621,8 +621,16 @@ footer{
   text-align: left;
 }
 
-.footer-contact p{
+.footer-row p{
   text-align: left;
+}
+
+.footer-row a{
+  margin: 0 auto;
+}
+
+.footer-contact a{
+  margin-right: 15px;
 }
 
 .footerbutton{
@@ -632,7 +640,7 @@ footer{
   display: block;
   font-weight: 700;
   width: 220px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px auto !important;
   transition: all ease-in-out 0.4s;
 }
 
