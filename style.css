@@ -812,5 +812,37 @@ footer{
 
 .pricebody p{
   border-bottom: 1px solid #E8E2BF;
-  padding: 8px 0 10px 0;
+  padding: 8px 0 5px 0;
+}
+
+
+.bigcalendercontainer{
+  width: 48%;
+  display:inline-block;
+  margin-right: auto;
+  margin-top: 30px;
+  float:left;
+  padding: 0px 22px 0px 0px;
+}
+
+.bigcalendertop{
+  color: #F7F6F0;
+  background: #5890B4;
+}
+
+.bigcalendertop p{
+  font-size: 44px !important;
+  color: white !important;
+  padding:15px 0 15px 10px !important;
+}
+
+.bigcalenderbody{
+  padding: 0 7px;
+  color: #5890B4;
+  background: white;
+}
+
+.bigcalenderbody p{
+  border-bottom: 1px solid #E8E2BF;
+  padding: 5px 0px 5px 0px !important;
 }
