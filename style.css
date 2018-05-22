@@ -561,6 +561,19 @@ main{
   height: 200px;
 }
 
+.boernehaven{
+  margin-top: 150px;
+}
+
+#beigebg{
+  background: #E8E2BF;
+  height: 180px;
+  float: left;
+  margin: -90px 0 -100px 0;
+  bottom: 0;
+  width: 100%;
+}
+
 
 /* har bare lavet en random farve til banner */
 body {
