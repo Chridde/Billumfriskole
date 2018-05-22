@@ -816,11 +816,20 @@ footer{
 }
 
 .banner #bannerimg4{
-      background-image: url(media/bannerimg4.jpg);
+      background-image: url(media/banner-indmeldelse.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
 }
+
+.banner #bannerimg5{
+      background-image: url(media/banner-priser.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+
 
 .bannerbutton{
       width: 40px;
