@@ -413,8 +413,12 @@ main{
   text-align: center;
 }
 
-.bannerswirl{
+.img-container{
+  width: 100%;
   overflow: hidden;
+}
+
+.bannerswirl{
   z-index: 100;
   margin-top: -88px;
   position: absolute;
