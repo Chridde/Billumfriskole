@@ -253,6 +253,7 @@ main{
   margin: 220px auto 100px auto;
 }
 
+
 .openingtimes h3{
   background: #BC9480;
   color: #FFF;
@@ -276,7 +277,7 @@ main{
   margin-bottom: 20px;
   font-size: 54px;
   color: #B48269;
-  line-height: 34px;
+  line-height: 54px;
   font-family: 'Atma-Semibold', sans-serif;
 }
 
@@ -739,4 +740,36 @@ footer{
       padding-top: 400px;
       padding-left: 202px;
       text-shadow: 0px 4px 16px #000;
+}
+
+
+.pricecontainer{
+  width: 40%;
+  display:inline-block;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.pricetop{
+  padding: 8px 0 8px 14px;
+  color: #F7F6F0;
+  background: #5890B4;
+}
+
+.pricetop p{
+  font-size: 44px !important;
+  color: white !important;
+}
+
+.pricebody{
+  padding: 0 14px;
+  color: #5890B4;
+  background: white;
+
+}
+
+.pricebody p{
+  border-bottom: 1px solid #E8E2BF;
+  padding: 8px 0 10px 0;
 }
