@@ -609,14 +609,15 @@ main{
 .submit{
   margin: 45px auto 0 auto;
   width: 100%;
+  text-align: center;
 }
 
 #contact input{
-  padding: 10px 0 10px 10px;
+  padding: 10px 10px 10px 10px;
   font-size: 20px;
-  width: 30%;
-  margin-right: 20px;
+  width: 100%;
   font-family: 'Atma-Light', sans-serif;
+  margin-bottom: 10px;
 }
 
 .message{
