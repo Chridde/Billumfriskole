@@ -943,7 +943,7 @@ padding-left: 475px;
 }
 
 .styleguide-element{
-  margin: 50px 0;
+  margin: 20px 0;
   text-align: center;
   width: 100%;
   float: left;
@@ -959,7 +959,7 @@ padding-left: 475px;
   display: block;
   font-family: 'Atma-Regular', sans-serif;
   width: 60%;
-  margin: 50px auto;
+  margin: 40px auto;
   background: #F7F6F0;
 }
 
