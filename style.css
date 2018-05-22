@@ -341,6 +341,10 @@ main{
   padding-bottom: 25px;
 }
 
+.textcenter{
+  text-align: center;
+}
+
 #wavybg-front{
   position: relative;
   margin-top: -80px;
