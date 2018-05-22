@@ -913,3 +913,63 @@ footer{
 #vaerdigrafik{
 padding-left: 475px;
 }
+
+
+#styleguide-container{
+  width: 60%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+#styleguide-container h1{
+  font-size: 60px;
+}
+
+#styleguide-body{
+  background: #E8E2BF;
+}
+
+.styleguide-element{
+  margin: 50px 0;
+  text-align: center;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+.styleguide-element h3{
+  margin: 50px 0;
+  font-size: 30px;
+}
+
+.styleguide-code{
+  display: block;
+  font-family: 'Atma-Regular', sans-serif;
+  width: 60%;
+  margin: 50px auto;
+  background: #F7F6F0;
+}
+
+.color-square{
+  float: left;
+  margin-left: 60px;
+  width: 100px;
+  height: 100px;
+}
+
+.brown{
+  background: #BC9480;
+}
+
+.beige{
+  background: #E8E2BF;
+  border: 3px solid #FFF;
+}
+
+.blue{
+  background: #5890B4;
+}
+
+.green{
+  background: #A6E48C;
+}
