@@ -304,6 +304,9 @@ main{
   margin: 220px auto 100px auto;
 }
 
+.openingtimes{
+  margin-bottom: 150px;
+}
 
 .openingtimes h3{
   background: #BC9480;
@@ -622,11 +625,14 @@ main{
    margin: 110px 0 0 120px;
 }
 
+.sfo p{
+  padding: 10px 0 !important;
+}
 
 #contact{
   width: 80%;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 #contact a{
@@ -723,6 +729,32 @@ main{
 
 body {
   background-color: #F7F6F0;
+}
+
+#boernehaveinfo h3{
+  font-size: 32px;
+  font-family: 'Atma-Bold', sans-serif;
+}
+
+#boernehaveinfo p{
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.boernehaveinfo1{
+  z-index: 500;
+  position: absolute;
+  margin-top: 200px;
+  flex: 45%;
+  padding-right: 5%;
+}
+
+.boernehaveinfo2{
+  z-index: 500;
+  position: absolute;
+  margin-top: 200px;
+  flex: 45%;
+  padding-right: 5%;
 }
 
 .banner{
