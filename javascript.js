@@ -1,11 +1,11 @@
 function dropDown() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.querySelector("#dropdown-li").classList.toggle("show");
 }
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropdown-button')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns = document.querySelector(".dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
