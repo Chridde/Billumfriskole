@@ -795,14 +795,14 @@ footer{
 }
 
 .banner #bannerimg3{
-      background-image: url(media/placeholder3.jpg);
+      background-image: url(media/bannerimg3.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
 }
 
 .banner #bannerimg2{
-      background-image: url(media/placeholder2.jpg);
+      background-image: url(media/bannerimg2.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
