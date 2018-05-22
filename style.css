@@ -815,6 +815,13 @@ footer{
       background-repeat: no-repeat;
 }
 
+.banner #bannerimg4{
+      background-image: url(media/bannerimg4.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
 .bannerbutton{
       width: 40px;
       height: 40px;
