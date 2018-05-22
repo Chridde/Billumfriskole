@@ -509,7 +509,6 @@ main{
   transition: all ease-in-out 0.3s;
 }
 
-font-weight: 700;
 .bluebutton:hover{
   background-color: #7BB0D1;
 }
