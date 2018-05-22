@@ -51,6 +51,7 @@ color:#A6E48C;
 h2{
   font-size: 80px;
   text-align: center;
+  font-family: 'Atma-Bold', sans-serif;
 }
 
 #gitte{
@@ -354,6 +355,12 @@ main{
   z-index: 120;
 }
 
+#wavybg-container{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+
 #wavybg{
   position: relative;
   margin-top: 50px;
@@ -434,19 +441,22 @@ main{
 }
 
 .values1{
-  position: absolute;
+  margin-top: -43%;
+  flex: 45%;
+  padding-right: 5%;
+}
+
+.right-border{
+  margin-top: -39%;
+  height: 220px;
+  width: 1px;
   border-right: 1px solid #B48269;
-  padding-right: 7%;
-  width: 33%;
-  top: 25%;
-  left: 10%;
 }
 
 .values2{
-  position: absolute;
-  width: 33%;
-  top: 25%;
-  right: 10%;
+  margin-top: -43%;
+  padding-left: 5%;
+  flex: 45%;
 }
 
 #calender{
@@ -513,8 +523,8 @@ main{
 }
 
 .calendercontainer{
-  width: 80%;
-  margin: 40px auto 200px auto;
+  width: 70%;
+  margin: 40px auto 150px auto;
 }
 
 .calendertop{
@@ -544,8 +554,14 @@ main{
 }
 
 .logoclass{
+  margin-top: -10px;
   position: absolute;
   z-index: 70;
+  transition: all 0.3s ease-in-out;
+}
+
+.logoclass:hover{
+  transform: scale(1.2);
 }
 
 .navli{
@@ -553,7 +569,7 @@ main{
 }
 
 #news{
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 #news h2{
@@ -584,15 +600,32 @@ main{
 .newstext{
   color: #A6E48C;
   float: left;
-  padding: 20px 0 0 20px;
-  width: 60%;
+  padding: 15px 0 0 20px;
+  width: 45%;
+}
+
+.newstext h3{
+  font-size: 28px;
+  font-family: 'Atma-Bold', sans-serif;
+}
+
+.newstext p{
+  font-family: 'Atma-Regular', sans-serif;
 }
 
 .newsright{
   float: right;
   height: 100%;
-  background: #A6E48C;
-  width: 10%;
+  background: linear-gradient(to right,#FFF, #A6E48C);
+  width: 20%;
+}
+
+.newsright:hover{
+  background: linear-gradient(to right,#FFF, #7AB562);
+}
+
+.newsright img{
+   margin: 110px 0 0 140px;
 }
 
 
@@ -710,6 +743,7 @@ body {
 
 .banner h1{
       font-size: 90px;
+      font-family: 'Atma-Bold', sans-serif;
       color: #A6E48C;
       z-index: 150;
       position: absolute;
