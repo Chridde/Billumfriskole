@@ -212,8 +212,17 @@ main{
   color: #ffffff;
 }
 
+.heading-container{
+  margin-top: 750px;
+}
 
-
+.heading-container h2{
+  margin-bottom: 20px;
+  font-size: 54px;
+  color: #B48269;
+  line-height: 34px;
+  font-family: 'Atma-Semibold', sans-serif;
+}
 
 .dropdown-button {
   background: #F7F6F0;
@@ -377,9 +386,9 @@ main{
 
 .wavybg-content{
   position: absolute;
-  margin: 0 20%;
+  margin: 0 25%;
   width: 60%;
-  top: 100px;
+  top: 200px;
 }
 
 .prices{
@@ -394,11 +403,16 @@ main{
   line-height: 52px;
 }
 
+.wavybg-content h3{
+  font-size: 55px;
+  margin-right: 150px;
+  text-align: center;
+}
+
 .bannerswirl{
   z-index: 100;
   margin-top: -88px;
   position: absolute;
-  max-width: inherit;
 }
 
 #values h3{
@@ -616,13 +630,75 @@ main{
   width: 100%;
 }
 
+.boxes{
+  margin: 0 auto;
+}
 
-/* har bare lavet en random farve til banner */
+.ansatte-container{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.ansatte-container p{
+}
+
+.ansatte-container h4{
+  font-size: 34px;
+  color: #5890B4;
+  line-height: 34px;
+  font-family: 'Atma-Semibold', sans-serif;
+}
+
+#ansatte-boxes{
+  float: left;
+  background: #FFF;
+  width: 45%;
+  margin-bottom: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
+#ansatte-boxes1{
+  float: right;
+  background: #FFF;
+  width: 45%;
+  margin-bottom: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
+#ansatte-boxes2{
+  float: left;
+  background: #FFF;
+  width: 45%;
+  margin-bottom: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
+#ansatte-boxes3{
+  float: right;
+  background: #FFF;
+  width: 45%;
+  margin-bottom: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
+#ansatte-boxes4{
+  float: left;
+  background: #FFF;
+  width: 45%;
+  margin-bottom: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 8px #E3E3E3;
+}
+
 body {
   background-color: #F7F6F0;
 }
 
-/* Random width og height, kan bare ændres når vi bliver enige om siden */
 .banner{
       top: 0;
       margin: 0 auto;
@@ -812,7 +888,39 @@ footer{
 
 .pricebody p{
   border-bottom: 1px solid #E8E2BF;
-  padding: 8px 0 10px 0;
+  padding: 8px 0 5px 0;
+}
+
+
+.bigcalendercontainer{
+  width: 48%;
+  display:inline-block;
+  margin-right: auto;
+  margin-top: 30px;
+  float:left;
+  padding: 0px 22px 0px 0px;
+}
+
+.bigcalendertop{
+  color: #F7F6F0;
+  background: #5890B4;
+}
+
+.bigcalendertop p{
+  font-size: 44px !important;
+  color: white !important;
+  padding:15px 0 15px 10px !important;
+}
+
+.bigcalenderbody{
+  padding: 0 7px;
+  color: #5890B4;
+  background: white;
+}
+
+.bigcalenderbody p{
+  border-bottom: 1px solid #E8E2BF;
+  padding: 5px 0px 5px 0px !important;
 }
 
 #vaerdigrafik{
