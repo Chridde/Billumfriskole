@@ -562,6 +562,10 @@ font-weight: 700;
   color: #A6E48C;
 }
 
+#calender h2{
+  color: #5890B4;
+}
+
 #newscontainer{
   width: 80%;
   margin: 40px auto 0 auto;
