@@ -177,7 +177,7 @@ main{
   text-align: center;
   border: 4px solid #5890B4;
   z-index: 300;
-  margin-top: -550px;
+  margin-top: -800px;
   margin-right: 20%;
   position: relative;
 }
@@ -199,7 +199,7 @@ main{
   text-align: center;
   border: 4px solid #5890B4;
   z-index: 300;
-  margin-top: -550px;
+  margin-top: -800px;
   margin-left: 20%;
   position: relative;
 }
@@ -289,6 +289,7 @@ main{
   width: 60%;
   margin: 0 auto;
   margin-top: 90px;
+  padding-bottom: 150px;
 }
 
 .textcontainer3{
@@ -378,16 +379,6 @@ main{
 #wavybg-front p{
   line-height: 28px;
   font-family: 'Atma-Regular', sans-serif;
-}
-
-#wavybg{
-  position: relative;
-  margin-top: 50px;
-  text-align: center;
-  float: left;
-  color: #B48269;
-  height: 100%;
-  z-index: 120;
 }
 
 #wavybg img, #wavybg-front img{
@@ -676,9 +667,9 @@ main{
 
 #beigebg{
   background: #E8E2BF;
-  height: 190px;
+  height: 380px;
   float: left;
-  margin: -110px 0 -100px 0;
+  margin: -300px 0 -190px 0;
   bottom: 0;
   width: 100%;
 }
