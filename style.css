@@ -625,8 +625,8 @@ main{
    margin: 110px 0 0 120px;
 }
 
-.sfo p{
-  padding: 10px 0 !important;
+.sfo{
+  margin-bottom: 0 !important;
 }
 
 #contact{
