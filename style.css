@@ -643,6 +643,13 @@ main{
 .ansatte-container p{
 }
 
+.ansatte-container h4{
+  font-size: 34px;
+  color: #5890B4;
+  line-height: 34px;
+  font-family: 'Atma-Semibold', sans-serif;
+}
+
 #ansatte-boxes{
   float: left;
   background: #FFF;
