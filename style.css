@@ -1056,6 +1056,30 @@ padding-left: 475px;
   height: 100px;
 }
 
+.Atma-Light{
+  font-family: 'Atma-Light';
+  padding-bottom: 5px;
+}
+
+.Atma-Regular{
+  font-family: 'Atma-Regular';
+  padding-bottom: 5px;
+}
+
+.Atma-Medium{
+  font-family: 'Atma-Medium';
+  padding-bottom: 5px;
+}
+
+.Atma-SemiBold{
+  font-family: 'Atma-SemiBold';
+  padding-bottom: 5px;
+}
+
+.Atma-Bold{
+  font-family: 'Atma-Bold';
+}
+
 .brown{
   background: #BC9480;
 }
