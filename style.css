@@ -168,7 +168,7 @@ main{
   width: 100%;
 }
 
-#topcircle1{
+#citatcircle1{
   background-color: #5890B4;
   float: right;
   width: 440px;
@@ -182,15 +182,15 @@ main{
   position: relative;
 }
 
-#topcircle1 p{
-  font-size: 26px;
-  margin-top: 140px;
+#citatcircle1 h3{
+  font-size: 26px !important;
+  margin-top: 110px;
   padding: 0 50px;
-  font-family: 'Atma-Regular', sans-serif;
+  font-family: 'Atma-Regular', sans-serif !important;
   color: #ffffff;
 }
 
-#topcircle2{
+#citatcircle2{
   background-color: #5890B4;
   float: left;
   width: 440px;
@@ -204,11 +204,11 @@ main{
   position: relative;
 }
 
-#topcircle2 p{
-  font-size: 26px;
-  margin-top: 140px;
+#citatcircle2 h3{
+  font-size: 26px !important;
+  margin-top: 110px;
   padding: 0 50px;
-  font-family: 'Atma-Regular', sans-serif;
+  font-family: 'Atma-Regular', sans-serif !important;
   color: #ffffff;
 }
 
@@ -336,7 +336,7 @@ main{
 }
 
 
-#toptext p{
+.toptext p{
   font-size: 22px;
   color: #B48269;
   line-height: 38px;
