@@ -122,7 +122,7 @@ main{
 }
 
 
-#frontcircle p{
+#frontcircle h3{
   font-size: 22px;
   margin-top: 140px;
   padding: 0 50px;
@@ -213,7 +213,7 @@ main{
 }
 
 .heading-container{
-  margin-top: 750px;
+  margin-top: 150px;
 }
 
 .heading-container h2{
@@ -681,12 +681,12 @@ main{
 }
 
 
-.ansatte-container{
+#ansatte-container{
   width: 80%;
   margin: 0 auto;
 }
 
-.ansatte-container p{
+#ansatte-container p{
   padding: 10px 40px 0 40px;
   font-size: 18px;
   color: #B48269;
@@ -694,13 +694,13 @@ main{
   font-family: 'Atma-Light', sans-serif;
 }
 
-#ansatte-boxes img{
+.ansatte-boxes img{
   padding-top: 10px;
   display: block;
   margin: auto;
 }
 
-.ansatte-container h3{
+#ansatte-container h3{
   text-align: center;
   margin-top: 10px;
   font-size: 34px;
@@ -709,7 +709,7 @@ main{
   font-family: 'Atma-Semibold', sans-serif;
 }
 
-.ansatte-container h4{
+#ansatte-container h4{
   text-align: center;
   margin-top: 4px;
   font-size: 22px;
@@ -718,7 +718,7 @@ main{
   font-family: 'Atma-Semibold', sans-serif;
 }
 
-#ansatte-boxes{
+.ansatte-boxes{
   float: left;
   background: #FFF;
   width: 40%;
